@@ -1,0 +1,153 @@
+/* Home Banner Area css
+============================================================================================ */
+
+.home_banner_area {
+z-index: 1;
+background: url(../img/banner/home-banner.png) no-repeat top center;
+background-position: center;
+background-size: cover;
+.banner_inner {
+width: 100%;
+.home_right_img {
+padding-top: 197px;
+@media (max-width: 1480px) {
+img {
+max-width: 100%;
+height: auto;
+}
+}
+@media (max-width: 991px) {
+display: none;
+}
+}
+.col-lg-7 {
+vertical-align: middle;
+align-self: center;
+}
+.banner_content {
+text-align: left;
+@media (max-width: 991px) {
+margin-top: 150px;
+}
+h3 {
+font-size: 40px;
+margin-bottom: 20px;
+position: relative;
+&:after {
+content: '';
+width: 410px;
+height: 2px;
+position: absolute;
+top: 50%;
+left: 23%;
+background: $title-color;
+@media (max-width: 575px) {
+display: none;
+}
+}
+}
+h1 {
+margin-top: 20px;
+font-size: 70px;
+line-height: 60px;
+margin-bottom: 25px;
+@media (max-width: 1024px) {
+font-size: 60px;
+}
+@media (max-width: 767px) {
+font-size: 50px;
+}
+}
+h5 {
+font-size: 24px;
+margin-bottom: 35px;
+}
+.primary_btn {
+margin-right: 20px;
+}
+}
+}
+}
+
+.banner_area {
+position: relative;
+z-index: 1;
+min-height: 485px;
+@media (max-width: 1199px) {
+min-height: 350px;
+}
+.banner_inner {
+position: relative;
+overflow: hidden;
+width: 100%;
+min-height: 485px;
+background: url(../img/banner/common-banner.png) no-repeat right bottom;
+background-size: 90% 85%;
+width: 98%;
+z-index: 1;
+@media (max-width: 1199px) {
+min-height: 350px;
+}
+@media (max-width: 991px) {
+background: $primary-color2;
+width: 100%;
+}
+.banner_content {
+margin-left: 50px;
+margin-top: 100px;
+@media (max-width: 991px) {
+margin-left: 0px;
+margin-top: 50px;
+}
+h2 {
+color: #fff;
+font-size: 50px;
+font-family: $title-font;
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight: 700;
+@media (max-width: 991px) {
+font-size: 30px;
+}
+}
+.banner-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.banner-social ul li:last-child {
+  margin-right: 0;
+}
+.banner-social ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px rgb(118 85 225 / 30%);
+}
+.banner-social ul li a:hover {
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px solid #854fee;
+    color: #222222;
+    box-shadow: none;
+    transition: 0.8s;
+}
+.banner-social {
+  margin-bottom: 40px;
+}
+
+}
+}
+}
+
+
+
+/* End Home Banner Area css
+============================================================================================ */
