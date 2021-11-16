@@ -35,6 +35,7 @@
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script defer src="//use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 	<script src="js/stellar.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>

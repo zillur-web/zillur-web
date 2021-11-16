@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2021 at 03:57 PM
+-- Generation Time: Nov 16, 2021 at 04:59 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.23
 
@@ -41,7 +41,7 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id`, `title`, `description`, `link`, `image`, `status`) VALUES
-(3, 'LET’S <br> INTRODUCE ABOUT<br> MYSELF', 'Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days. <br><br>\r\n\r\nIs give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you\'re gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.', 'http://zillur-web.unaux.com/', 'about-image.png', 'active');
+(3, 'LET’S <br> INTRODUCE ABOUT<br> MYSELF', 'I’m Zillur Rahman Passionate at web development. I’m working minimum of 13-14 hours every day, I love to do this it’s my life-everything.<br>\r\nMy goal is to satisfy clients, try to understand what they want for there website, help them from beginning to end the project and give support for every problem.<br>If need I communicate by video or audio conversations to understand the problems and project requirements. After completing website and projects I give instructions, How they can manage, edit, update, add page and post on the website by themselves. if needed I send video tutorials.', 'http://zillur-web.unaux.com/', 'about-image.png', 'active');
 
 --
 -- Indexes for dumped tables

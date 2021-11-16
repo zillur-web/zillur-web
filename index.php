@@ -107,11 +107,10 @@ require 'inc/header.php';
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8 text-center">
-				<div class="main_title ">
+				<div class="main_title text-justify-center">
 					<h2 class="wow fadeInUp" data-wow-delay="0.2s">service offers </h2>
 					<p class="wow fadeInUp" data-wow-delay="0.4s">
-						Is give may shall likeness made yielding spirit a itself togeth created 
-						after sea <br> is in beast beginning signs open god you're gathering ithe
+						To understand the project needs & requirements it's vital on behalf of me , for that I ask every details to related projects if needed I communicate by video or audio conversations.
 					</p>
 				</div>
 			</div>
@@ -119,10 +118,10 @@ require 'inc/header.php';
 		<div class="row feature_inner">
 			<?php foreach ($services_query as $key => $value): ?>
 				<div class="col-lg-4 col-md-6">
-					<div class="feature_item wow fadeInLeft" data-wow-delay="0.6s">
+					<div class="feature_item wow fadeInLeft p-5" data-wow-delay="0.6s">
 						<div style="font-size: 65px; color: #FF3D4F;"><?= $value['icon']?></div>
 						<h3 class="pt-3 text-uppercase"><?= $value['title']?></h3>
-						<p style="text-align: left; line-height: 35px;"><?= $value['description']?></p>
+						<p style="text-align: left; line-height: 28px;"><?= $value['description']?></p>
 					</div>
 				</div>
 			<?php endforeach ?>
@@ -186,10 +185,9 @@ require 'inc/header.php';
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8 text-center">
-				<div class="main_title">
+				<div class="main_title text-justify-center">
 					<h2 class="wow fadeInUp" data-wow-delay="0.2s">client say about me</h2>
-					<p class="wow fadeInUp" data-wow-delay="0.4s">Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-					beginning signs open god you're gathering ithe</p>
+					<p class="wow fadeInUp" data-wow-delay="0.4s">We are very fortunate to have formed excellent partnerships with many of our clients. And we’ve formed more than just working relationships with them; we have formed true friendships. Here’s what they’re saying about us</p>
 				</div>
 			</div>
 		</div>
@@ -224,7 +222,7 @@ require 'inc/header.php';
 				<div class="subscription_box text-center">
 					<h2 class="text-uppercase text-white wow fadeInUp" data-wow-delay="0.2s">get update from anywhere</h2>
 					<p class="text-white wow fadeInUp" data-wow-delay="0.4s">
-						Bearing Void gathering light light his eavening unto dont afraid. 
+						All you have to do is submit your valid email. I will contact you. 
 					</p>
 					<div class="subcribe-form wow fadeInUp" data-wow-delay="0.6s">
 						<form action="dashboard/subscribers-post.php" method="POST" class="subscription relative">

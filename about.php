@@ -88,14 +88,13 @@
 <!--================ End Brand Area =================-->
 
 <!--================ Start Testimonial Area =================-->
-<div class="testimonial_area section_gap_bottom">
+<div class="testimonial_area section_gap_bottom pt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-                <div class="main_title">
+                <div class="main_title text-justify-center">
                     <h2 class="wow fadeInUp" data-wow-delay="0.2s">client say about me</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.4s">Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-                    beginning signs open god you're gathering ithe</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.4s">We are very fortunate to have formed excellent partnerships with many of our clients. And we’ve formed more than just working relationships with them; we have formed true friendships. Here’s what they’re saying about us</p>
                 </div>
             </div>
         </div>
@@ -130,7 +129,7 @@
                 <div class="subscription_box text-center">
                     <h2 class="text-uppercase text-white wow fadeInUp" data-wow-delay="0.2s">get update from anywhere</h2>
                     <p class="text-white wow fadeInUp" data-wow-delay="0.4s">
-                        Bearing Void gathering light light his eavening unto dont afraid. 
+                        All you have to do is submit your valid email. I will contact you. 
                     </p>
                     <div class="subcribe-form wow fadeInUp" data-wow-delay="0.6s">
                         <form action="dashboard/subscribers-post.php" method="POST" class="subscription relative">
@@ -165,6 +164,7 @@
         </div>
     </div>
 </section>
+<!--================ End Newsletter Area =================-->
 <?php
     require 'inc/footer.php'
 ?>

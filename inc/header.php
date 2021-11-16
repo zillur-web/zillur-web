@@ -74,13 +74,11 @@ $contact_assoc = mysqli_fetch_assoc($contact_query);
 						<a class="navbar-brand logo_h" href="index.php"><img src="img/<?=$settings_assoc['logo'] ;?>" alt="logo here"></a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+						<span class="menu"><i class="fas fa-bars"></i></span>
 					</button>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
+						<ul class="nav navbar-nav menu_nav justify-content-end p-lg-3">
 							<li class="nav-item <?= $url == 'index.php' ? 'active' : ''?>"><a class="nav-link" href="index.php">Home</a></li>
 							<li class="nav-item <?= $url == 'about.php' ? 'active' : ''?>"><a class="nav-link" href="about.php">About</a></li>
 							<li class="nav-item <?= $url == 'services.php' ? 'active' : ''?>"><a class="nav-link" href="services.php">Services</a></li>

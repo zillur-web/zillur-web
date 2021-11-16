@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2021 at 03:57 PM
+-- Generation Time: Nov 16, 2021 at 05:00 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.23
 
@@ -42,8 +42,8 @@ CREATE TABLE `messages` (
 --
 
 INSERT INTO `messages` (`id`, `name`, `subject`, `email`, `date_time`, `message`, `status`) VALUES
-(1, 'Elite Martin', 'dssf', 'zillur78489@gmail.com', '07:54:51 AM 02-Nov-2021', 'আমার গিগ গুলোর বয়স ৩ সপ্তাহ চলতেছে।\r\nতিনদিন আগে একজন ক্লায়েন্ট অর্ডার করলো এবং তা আমি ভালো ভাবেই ডেলিভারি করি কিন্তু ক্লাইন্ট কোনো রিভিউ দেয়নি!\r\nআমাকে সবাই সাজেস্ট করুন কিভাবে কাজ পেতে পারি,\r\nআর কোন কোন সময় এক্টিভ থাকতে পারি আমার কাছে সারাদিনে ২-৩ টা বায়ার রিকুয়েস্ট আসে।\r\nঅভিজ্ঞরা একটু সাহায্য করুন।\r\nধন্যবাদ', 1),
-(3, 'Elite Martin', 'hello', 'zillur78489@gmail.com', '08:32:32 AM 03-Nov-2021', 'Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.\r\n\r\nIs give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you\'re gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.\r\n\r\nDOWNLOAD CV', 3);
+(1, 'Elite Martin', 'dssf', 'zillur78489@gmail.com', '07:54:51 AM 02-Nov-2021', 'আমার গিগ গুলোর বয়স ৩ সপ্তাহ চলতেছে।\r\nতিনদিন আগে একজন ক্লায়েন্ট অর্ডার করলো এবং তা আমি ভালো ভাবেই ডেলিভারি করি কিন্তু ক্লাইন্ট কোনো রিভিউ দেয়নি!\r\nআমাকে সবাই সাজেস্ট করুন কিভাবে কাজ পেতে পারি,\r\nআর কোন কোন সময় এক্টিভ থাকতে পারি আমার কাছে সারাদিনে ২-৩ টা বায়ার রিকুয়েস্ট আসে।\r\nঅভিজ্ঞরা একটু সাহায্য করুন।\r\nধন্যবাদ', 2),
+(3, 'Elite Martin', 'hello', 'zillur78489@gmail.com', '08:32:32 AM 03-Nov-2021', 'Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.\r\n\r\nIs give may shall likeness made yielding spirit a itself together created after sea is in beast beginning signs open god you\'re gathering whose gathered cattle let. Creature whales fruit unto meat the life beginning all in under give two.\r\n\r\nDOWNLOAD CV', 1);
 
 --
 -- Indexes for dumped tables

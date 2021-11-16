@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2021 at 03:56 PM
+-- Generation Time: Nov 16, 2021 at 05:00 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.23
 
@@ -40,7 +40,8 @@ CREATE TABLE `services` (
 --
 
 INSERT INTO `services` (`id`, `title`, `description`, `icon`, `status`) VALUES
-(1, 'Web Design', '<i class=\"fas fa-laptop-code\"></i> Portfolio & Business Template <br>\r\n<i class=\"fas fa-desktop\"></i> Domain & Hosting Website <br>\r\n<i class=\"fas fa-shopping-cart\"></i> eCommerce Website <br>\r\n<i class=\"fab fa-wordpress\"></i> Wordpress Theme Customization <br>', '<i class=\"fas fa-pencil-ruler\"></i>', 'active');
+(1, 'Web Design', 'I can create any sort of website for your business, portfolio, company, e-commerce store, blog etc. I provide unique, clean & awesome graphical design interface.', '<i class=\"fas fa-pencil-ruler\"></i>', 'active'),
+(3, 'Fixing problems', 'Website problem & bugs it’s a standard problem for each website. Don’t worry about bugs and problems. I can fix any sort of problems & bugs for any website.', '<i class=\"fas fa-exclamation-triangle\"></i>', 'active');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +61,7 @@ ALTER TABLE `services`
 -- AUTO_INCREMENT for table `services`
 --
 ALTER TABLE `services`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

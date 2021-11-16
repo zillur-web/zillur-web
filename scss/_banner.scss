@@ -43,8 +43,14 @@ left: 23%;
 background: $title-color;
 @media (max-width: 575px) {
 display: none;
+.home_banner_area .banner_inner .banner_content h1 {
+  font-size: 43px !important; 
+}
+.home_banner_area .banner_inner .banner_content h5 {
+  font-size: 20px !important; 
 }
 }
+
 }
 h1 {
 margin-top: 20px;
@@ -145,6 +151,21 @@ font-size: 30px;
 
 }
 }
+}
+
+@media (max-width: 412px) {
+
+  .home_banner_area .banner_inner .banner_content h1 {
+    font-size: 36px !important; 
+  }
+  .home_banner_area .banner_inner .banner_content h5 {
+    font-size: 18px !important; 
+  }
+  .banner-social ul li a{
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+  }
 }
 
 

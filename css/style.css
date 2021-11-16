@@ -383,7 +383,12 @@ button:focus {
           background: #000000; }
           @media (max-width: 575px) {
             .home_banner_area .banner_inner .banner_content h3:after {
-              display: none; } }
+              display: none; } 
+            .home_banner_area .banner_inner .banner_content h1 {
+            font-size: 43px !important; }
+            .home_banner_area .banner_inner .banner_content h5 {
+            font-size: 20px !important; }
+          }
       .home_banner_area .banner_inner .banner_content h1 {
         margin-top: 20px;
         font-size: 70px;
@@ -3050,9 +3055,7 @@ h6 {
     margin-top: 27px;
     margin-bottom: 23px; }
 
-  .header_area .navbar {
-    background: #000; }
-
+  
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
 
@@ -3071,13 +3074,13 @@ h6 {
 
   .navbar-toggler span {
     display: block;
-    width: 25px;
-    height: 3px;
-    background: #fff;
+    font-size: 30px;
     margin: auto;
     margin-bottom: 4px;
     transition: all 400ms linear;
     cursor: pointer; }
+  span.menu {
+    color: #FF3D4F;}
 
   .navbar .container {
     padding-left: 15px;
@@ -3100,14 +3103,17 @@ h6 {
     display: block;
     border-bottom: 1px solid #ededed33;
     border-radius: 0px;
-    color: #fff; }
+    color: #3b3e5a; }
 
   .header_area .navbar .search {
     margin-left: 0px; }
 
   .header_area .navbar-collapse {
     max-height: 340px;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    background: #e7dddd;
+    border-radius: 4px;
+    padding: 23px; }
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
     padding: 0px 15px; }
@@ -3122,7 +3128,7 @@ h6 {
 
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
-    color: #fff; }
+    color: #3b3e5a; }
 
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
@@ -3214,7 +3220,8 @@ h6 {
 @media (max-width: 767px) {
   .home_banner_area {
     min-height: 300px; }
-
+  .navbar-brand.logo_h img {
+    width: 75% !important;}
   .home_banner_area .banner_inner {
     min-height: 300px;
     padding-top: 200px;
@@ -3274,7 +3281,8 @@ h6 {
   .header_area + row,
   .header_area + div {
     margin-top: 0px; }
-
+    .navbar-brand.logo_h img {
+    width: 70% !important;}
   /* Home Banner Area css
   ============================================================================================ */
   .home_banner_area .banner_inner .banner_content h2 {
@@ -3342,7 +3350,8 @@ h6 {
   ============================================================================================ */
   .header_area .navbar-collapse {
     max-height: 250px; }
-
+  .navbar-brand.logo_h img {
+    width: 60% !important;}
   /* End Main Menu Area css
   ============================================================================================ */
   /* Home Banner Area css
@@ -3435,6 +3444,20 @@ h6 {
       margin-bottom: 0; }
     .footer_area .footer_bottom a {
       color: #854fee; }
+
+@media (max-width: 412px) {
+  .home_banner_area .banner_inner .banner_content h1 {
+    font-size: 36px !important; 
+  }
+  .home_banner_area .banner_inner .banner_content h5 {
+    font-size: 16px !important; 
+  }
+  .banner-social ul li a{
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+  }
+}
 
 /* End Footer Area css
 ============================================================================================ */
